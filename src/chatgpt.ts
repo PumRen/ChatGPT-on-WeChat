@@ -76,7 +76,7 @@ export class ChatGPTBot {
       console.log(`🎯 Trigger keyword in private chat is: ${this.chatgptTriggerKeyword}`);
       console.log(`🎯 Trigger keyword in group chat is: ${this.chatGroupTriggerKeyword}`);
       // Run an initial test to confirm API works fine
-      await this.onChatGPT("Say Hello World");
+      await this.onChatGPT("Say Hello World !!!");
       console.log(`✅ Chatbot starts success, ready to handle message!`);
     } catch (e) {
       console.error(`❌ ${e}`);
